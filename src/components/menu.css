@@ -1,0 +1,72 @@
+.menuDesplegable{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(9, 5, 240));
+    padding: 0.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuNav{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.menuSvg{
+    display: none;   
+}
+
+.botonMenu{
+    display: none;
+}
+.ulMenu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.listaM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 69, 233);
+    padding: 3em;
+    margin: auto;
+    font-size: large;
+    &:hover{
+        color: aqua;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .botonMenu{
+        display: flex;
+    }
+    .menuNav{
+        width: 100%;
+
+        display: none;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuNav.activo{
+        display: flex;
+    }
+    .ulMenu{
+        flex-direction: column;
+    }
+    .listaM{
+        margin: .5em 0;
+    }
+    .menuSvg{
+        display: flex;    
+        background-color: rgb(33, 127, 250);
+        width: 2rem;
+        height: 2rem;
+        }
+        .botonMenu{
+            background-color: blue;
+        }
+   
+}

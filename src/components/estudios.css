@@ -1,0 +1,49 @@
+.estudios{
+    background: linear-gradient(to top, blue, black );
+}
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #fcfafa;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+.n-service{
+    margin-bottom: 7px;
+    color: rgb(252, 247, 247);
+}
+
+
+.bxl-javascript{
+color: yellow;
+
+}
+.bxl-php{
+    color: rgb(0, 132, 255);
+}
+.bxl-html5{
+    color: #fc5000;
+}
+.bxl-css3{
+    color: #110df7;
+}
+.bxl-react{
+    color: aqua;
+}
+.bxl-angular{
+    color: #f70909;
+}

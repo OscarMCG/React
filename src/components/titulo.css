@@ -1,0 +1,30 @@
+
+header{
+    height: 80vh;
+    background-image: linear-gradient(to top, rgba(255, 7, 7, 0.438) 0%, rgba(7, 167, 241, 0.671) 100%), url(portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+  }
+
+
+.titulo{
+    margin: auto;
+    padding: 60px 0;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #00f2fe;
+    text-align: center;
+    
+  
+    color: hsl(219, 93%, 39%);
+    &:hover{
+        color: black;
+    }
+    
+}
+

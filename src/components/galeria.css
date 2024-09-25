@@ -1,0 +1,11 @@
+body{
+    background:linear-gradient(to top, rgb(0, 0, 0), blue);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(244, 248, 248);
+    padding: 1rem;
+    font-size: 50px;
+}
